@@ -14,18 +14,8 @@
     </div>
     <div class="xl:gap-18 flex items-center gap-16">
         <div class="hidden items-center gap-4 md:gap-8 lg:flex">
-
-
-
-
-
-
-
             <a class="inline-flex rounded-sm transition duration-300 leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600/80 p-1 font-bold hover:text-gray-600" href="/partners" wire:navigate.hover="">
                 Partners
-            </a>
-            <a class="inline-flex rounded-sm transition duration-300 leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600/80 p-1 font-bold hover:text-gray-600" href="/links" wire:navigate.hover="">
-                Links
             </a>
             <a class="inline-flex rounded-sm transition duration-300 leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600/80 p-1 font-bold hover:text-gray-600" href="/login" wire:navigate.hover="">
                 Your Account
