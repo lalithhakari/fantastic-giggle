@@ -11,9 +11,7 @@
 <body>
     @include('layouts.announcements-banner')
     @include('layouts.header')
-    <div class="container mx-auto">
-        @yield('body')
-    </div>
+    @yield('body')
     @include('layouts.footer')
 </body>
 
