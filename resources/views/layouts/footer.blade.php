@@ -1,10 +1,9 @@
-<footer class="overflow-hidden py-24 sm:py-32">
+<footer class="overflow-hidden shadow-inner">
     <div class="mx-auto flex w-full max-w-2xl flex-col items-start justify-between gap-x-16 gap-y-12 px-6 lg:max-w-7xl lg:flex-row">
         <div class="lg:w-1/2">
             <h2 class="text-2xl font-bold lg:text-[28px]">Subscribe to our newsletter</h2>
             <div class="mt-10">
                 <div class="overflow-hidden rounded-lg border border-gray-100 bg-white p-8 shadow-card">
-                    <span class="absolute inset-y-0 left-0 w-1 bg-green-600"></span>
                     <div>
                         <form>
                             <div class="flex w-full flex-wrap items-stretch gap-4">
