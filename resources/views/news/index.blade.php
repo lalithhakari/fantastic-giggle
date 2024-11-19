@@ -21,9 +21,7 @@
             </a>
             @endforeach
         </div>
-        <div class="pagination-wrapper my-6 mx-auto">
-            {!! $tag['paginate']['auto_links'] !!}
-        </div>
+        <x-pagination :data="$tag['paginate']" />
     </div>
 </div>
 @endsection
