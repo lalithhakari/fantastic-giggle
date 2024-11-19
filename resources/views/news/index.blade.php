@@ -3,7 +3,7 @@
 @section('pageName', $page->title)
 
 @section('body')
-<div class="container mx-auto px-8 py-4">
+<div class="container py-6">
     <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-3">
         <h2 class="text-3xl font-bold">{{$page->title}}</h2>
     </div>
@@ -21,7 +21,7 @@
             </a>
             @endforeach
         </div>
-        <div class="pagination-wrapper mt-6 mx-auto w-1/2">
+        <div class="pagination-wrapper my-6 mx-auto">
             {!! $tag['paginate']['auto_links'] !!}
         </div>
     </div>

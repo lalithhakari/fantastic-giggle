@@ -1,6 +1,6 @@
 <header class="nav sticky overflow-hidden top-0 z-10 shadow-md">
     <nav class="bg-slate-100">
-        <div class="nav-menu container mx-auto flex justify-between px-8 py-4 items-center">
+        <div class="nav-menu container py-4 flex justify-between items-center">
             <div class="menu-item">
                 <a href="/">
                     <x-svg-icon icon="brand-logo" title="{{config('app.name')}}" class="w-12 h-12" />
@@ -29,7 +29,7 @@
         </div>
     </nav>
     <nav>
-        <div class="nav-submenu container flex mx-auto px-8 py-6 gap-20 bg-white">
+        <div class="nav-submenu container flex py-4 gap-20 bg-white">
             <div class="submenu-item">
                 Bestsellers
             </div>
