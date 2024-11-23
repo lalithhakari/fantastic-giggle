@@ -30,7 +30,7 @@
     </div>
     <div class="relevant-articles  mx-auto w-full max-w-4xl pt-12 space-y-6 mb-12">
         <div class="text-2xl font-bold">
-            Up Next
+            Up Next Article
         </div>
         <statamic:collection:next
             current="{{$id}}"

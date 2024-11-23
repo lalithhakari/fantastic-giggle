@@ -3,27 +3,27 @@
         <div class="nav-menu container py-2 flex justify-between items-center">
             <div class="menu-item">
                 <a href="/">
-                    <x-svg-icon icon="brand-logo" title="{{config('app.name')}}" class="w-12 h-12" />
+                    <x-svg-brand-logo title="{{config('app.name')}}" class="w-12 h-12" />
                 </a>
             </div>
             <div class="quick-options-wrapper flex gap-8">
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/search" title="Search" class="w-7 h-7" />
+                    <x-svg-outline.search title="Search" class="w-7 h-7" />
                 </div>
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/code" title="Code Playground" class="w-7 h-7" />
+                    <x-svg-outline.code title="Code Playground" class="w-7 h-7" />
                 </div>
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/academic-cap" title="Quiz" class="w-7 h-7" />
+                    <x-svg-outline.academic-cap title="Quiz" class="w-7 h-7" />
                 </div>
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/cart" title="Your Cart" class="w-7 h-7" />
+                    <x-svg-outline.cart title="Your Cart" class="w-7 h-7" />
                 </div>
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/moon" title="Dark Mode" class="w-7 h-7" />
+                    <x-svg-outline.moon title="Dark Mode" class="w-7 h-7" />
                 </div>
                 <div class="menu-item">
-                    <x-svg-icon icon="outline/user" title="Your Profile" class="w-7 h-7" />
+                    <x-svg-outline.user title="Your Profile" class="w-7 h-7" />
                 </div>
             </div>
         </div>
