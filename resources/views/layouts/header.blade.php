@@ -28,7 +28,7 @@
             </div>
         </div>
     </nav>
-    <nav>
+    <nav class="bg-white">
         <div class="nav-submenu container flex py-4 gap-20 bg-white">
             <div class="submenu-item">
                 Bestsellers

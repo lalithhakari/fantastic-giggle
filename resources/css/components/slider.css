@@ -14,7 +14,3 @@
 .slides {
     scroll-snap-type: x mandatory;
 }
-
-.slide-navigation-btn.active {
-    border-bottom: 2px solid;
-}

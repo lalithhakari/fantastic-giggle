@@ -29,8 +29,10 @@ export default class Slider {
                 behavior: "smooth",
             });
 
-            this.buttons.forEach((button) => button.classList.remove("active"));
-            clickedButton.classList.add("active");
+            this.buttons.forEach((button) =>
+                button.classList.remove("active", "border-b-2")
+            );
+            clickedButton.classList.add("active", "border-b-2");
         }
     }
 }
