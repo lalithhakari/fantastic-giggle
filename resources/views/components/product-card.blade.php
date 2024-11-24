@@ -1,4 +1,4 @@
-<a href="/test" class="product-card-component bg-white rounded-lg ease-in-out transition-shadow" target="_blank">
+<a href="/test" class="product-card-component bg-white text-gray-900 rounded-lg ease-in-out transition-shadow" target="_blank">
     <div class="space-y-2 border-gray-300 border-[1px] rounded-lg">
         <div class="image w-full aspect-[1.5] max-w-full">
             <img src="https://img-b.udemycdn.com/course/480x270/2645936_2526_8.jpg" class="w-full h-full object-cover rounded-t-lg" />

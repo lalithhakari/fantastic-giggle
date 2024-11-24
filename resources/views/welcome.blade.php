@@ -62,7 +62,7 @@
 </section>
 <section class="home-explore-section mt-10">
     <div class="container">
-        <div class="explore-header space-y-2">
+        <div class="explore-header space-y-2 text-gray-900">
             <div class="header">
                 <h1 class="text-3xl font-semibold">All the skills you need in one place </h1>
             </div>
@@ -73,13 +73,13 @@
         <div class="tab-pane-wrapper py-8 container">
             <x-tabs>
                 @slot('tabs')
-                <button data-tab="tab-1" data-tab-btn class="tab-btn cursor-pointer text-lg font-bold pr-2 py-2 border-green-400 active border-b-2">
+                <button data-tab="tab-1" data-tab-button class="tab-button cursor-pointer text-lg font-bold pr-2 py-2 border-green-400 active border-b-2 text-gray-900">
                     Data Science
                 </button>
-                <button data-tab="tab-2" data-tab-btn class="tab-btn cursor-pointer text-lg font-bold px-4 py-2 border-green-400">
+                <button data-tab="tab-2" data-tab-button class="tab-button cursor-pointer text-lg font-bold px-4 py-2 border-green-400">
                     IT Certifications
                 </button>
-                <button data-tab="tab-3" data-tab-btn class="tab-btn cursor-pointer text-lg font-bold px-4 py-2 border-green-400">
+                <button data-tab="tab-3" data-tab-button class="tab-button cursor-pointer text-lg font-bold px-4 py-2 border-green-400">
                     Leadership
                 </button>
                 @endslot

@@ -7,26 +7,26 @@ export default class Carousel {
         this.carousels = document.querySelectorAll("[data-carousel]");
         if (!this.carousels.length) return;
 
-        this.carousels.forEach((carousel) => {
-            const component = carousel.closest("[data-carousel-component]");
-            const leftArrow = component.querySelector(
-                "[data-carousel-arrow-left]"
-            );
-            const rightArrow = component.querySelector(
-                "[data-carousel-arrow-right]"
-            );
+        this.carousels.forEach((carousel) => this.setupCarousel(carousel));
+    }
 
-            // Initialize button states
-            this.updateButtonState(carousel, leftArrow, rightArrow);
+    setupCarousel(carousel) {
+        const component = carousel.closest("[data-carousel-component]");
+        const leftArrow = component.querySelector("[data-carousel-arrow-left]");
+        const rightArrow = component.querySelector(
+            "[data-carousel-arrow-right]"
+        );
 
-            // Add scroll event listener
-            carousel.addEventListener("scroll", () =>
-                this.updateButtonState(carousel, leftArrow, rightArrow)
-            );
+        // Initialize button states
+        this.updateButtonState(carousel, leftArrow, rightArrow);
 
-            // Add click listeners for arrows
-            this.addArrowListeners(carousel, leftArrow, rightArrow);
-        });
+        // Add scroll event listener
+        carousel.addEventListener("scroll", () =>
+            this.updateButtonState(carousel, leftArrow, rightArrow)
+        );
+
+        // Add click listeners for arrows
+        this.addArrowListeners(carousel, leftArrow, rightArrow);
     }
 
     addArrowListeners(carousel, leftArrow, rightArrow) {
@@ -59,5 +59,12 @@ export default class Carousel {
 
         // Toggle visibility of the right arrow
         rightArrow.classList.toggle("hidden", scrollLeft >= maxScrollLeft);
+    }
+
+    reinitializeForPane(pane) {
+        const carousel = pane.querySelector("[data-carousel]");
+        if (carousel) {
+            this.setupCarousel(carousel);
+        }
     }
 }

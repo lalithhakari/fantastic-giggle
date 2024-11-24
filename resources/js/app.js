@@ -1,5 +1,4 @@
 import "./bootstrap";
-
 import.meta.glob(["../images/**"]);
 
 import Slider from "./components/slider";
@@ -8,6 +7,9 @@ import Carousel from "./components/carousel";
 
 document.addEventListener("DOMContentLoaded", () => {
     new Slider();
-    new Tabs();
-    new Carousel();
+    const carousel = new Carousel();
+    new Tabs((pane) => {
+        // Callback to reinitialize carousel for the active pane
+        carousel.reinitializeForPane(pane);
+    });
 });

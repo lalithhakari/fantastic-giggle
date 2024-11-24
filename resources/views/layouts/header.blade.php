@@ -29,18 +29,18 @@
         </div>
     </nav>
     <nav class="bg-white">
-        <div class="nav-submenu container flex py-4 gap-20 bg-white">
+        <div class="nav-submenu container flex py-4 gap-20 text-black">
             <div class="submenu-item">
                 Bestsellers
             </div>
             <div class="submenu-item">
-                Bestsellers
+                New Releases
             </div>
             <div class="submenu-item">
-                Bestsellers
+                Categories
             </div>
             <div class="submenu-item">
-                Bestsellers
+                Free Learning
             </div>
         </div>
     </nav>
