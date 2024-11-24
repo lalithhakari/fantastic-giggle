@@ -1,14 +1,18 @@
 @import "./home/index.css";
 @import "./news/index.css";
 @import "./components/slider.css";
+@import "./components/tabs.css";
+@import "./components/carousel.css";
+@import "./components/product-card.css";
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
     .btn-primary {
-      @apply rounded-md bg-green-600 px-8 py-3 text-lg font-semibold text-white shadow-lg hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 uppercase;
+        @apply rounded-md bg-green-600 px-8 py-3 text-lg font-semibold text-white shadow-lg hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 uppercase;
     }
-  }
+}

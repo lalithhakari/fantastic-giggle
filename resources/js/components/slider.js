@@ -4,8 +4,8 @@ export default class Slider {
     }
 
     init() {
-        this.slidesContainer = document.querySelector(".slides");
-        this.buttons = document.querySelectorAll(".slide-navigation-btn");
+        this.slidesContainer = document.querySelector("[data-slides]");
+        this.buttons = document.querySelectorAll("[data-slide-navigation-btn]");
 
         if (!this.slidesContainer || !this.buttons) return;
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "496744210d0baddeb63229e9e1beddc2",
+    "content-hash": "12e97e2919bb3cee2442369277e14aa7",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1815,6 +1815,75 @@
                 "source": "https://github.com/laravel/serializable-closure"
             },
             "time": "2024-09-23T13:33:08+00:00"
+        },
+        {
+            "name": "laravel/telescope",
+            "version": "v5.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/telescope.git",
+                "reference": "f68386a8d816c9e3a011b8301bfd263213bf00d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/f68386a8d816c9e3a011b8301bfd263213bf00d4",
+                "reference": "f68386a8d816c9e3a011b8301bfd263213bf00d4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.37|^9.0|^10.0|^11.0",
+                "php": "^8.0",
+                "symfony/console": "^5.3|^6.0|^7.0",
+                "symfony/var-dumper": "^5.0|^6.0|^7.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "laravel/octane": "^1.4|^2.0|dev-develop",
+                "orchestra/testbench": "^6.40|^7.37|^8.17|^9.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.0|^10.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Telescope\\TelescopeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Telescope\\": "src/",
+                    "Laravel\\Telescope\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "An elegant debug assistant for the Laravel framework.",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "monitoring"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/telescope/issues",
+                "source": "https://github.com/laravel/telescope/tree/v5.2.5"
+            },
+            "time": "2024-10-31T17:06:07+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -4530,16 +4599,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.37.0",
+            "version": "v5.39.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "44c8bab0580cd1c67ddb9c3baf3741024823843a"
+                "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/44c8bab0580cd1c67ddb9c3baf3741024823843a",
-                "reference": "44c8bab0580cd1c67ddb9c3baf3741024823843a",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/f52ea08f4426b4856953eae977484b3e13cc66ff",
+                "reference": "f52ea08f4426b4856953eae977484b3e13cc66ff",
                 "shasum": ""
             },
             "require": {
@@ -4624,7 +4693,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.37.0"
+                "source": "https://github.com/statamic/cms/tree/v5.39.0"
             },
             "funding": [
                 {
@@ -4632,20 +4701,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-06T22:28:45+00:00"
+            "time": "2024-11-22T20:36:04+00:00"
         },
         {
             "name": "statamic/eloquent-driver",
-            "version": "v4.16.2",
+            "version": "v4.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/eloquent-driver.git",
-                "reference": "01b187ddb984b95d4ae3f7abfea7108edcd1999f"
+                "reference": "b5ed5ba2b794b753449f5d2dfdd8c445fefdfb09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/eloquent-driver/zipball/01b187ddb984b95d4ae3f7abfea7108edcd1999f",
-                "reference": "01b187ddb984b95d4ae3f7abfea7108edcd1999f",
+                "url": "https://api.github.com/repos/statamic/eloquent-driver/zipball/b5ed5ba2b794b753449f5d2dfdd8c445fefdfb09",
+                "reference": "b5ed5ba2b794b753449f5d2dfdd8c445fefdfb09",
                 "shasum": ""
             },
             "require": {
@@ -4682,9 +4751,9 @@
             "description": "Allows you to store Statamic data in a database.",
             "support": {
                 "issues": "https://github.com/statamic/eloquent-driver/issues",
-                "source": "https://github.com/statamic/eloquent-driver/tree/v4.16.2"
+                "source": "https://github.com/statamic/eloquent-driver/tree/v4.18.0"
             },
-            "time": "2024-11-08T10:10:46+00:00"
+            "time": "2024-11-20T08:00:32+00:00"
         },
         {
             "name": "statamic/stringy",

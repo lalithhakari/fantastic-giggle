@@ -4,8 +4,8 @@ export default class Tabs {
     }
 
     init() {
-        this.tabButtons = document.querySelectorAll(".tab-button");
-        this.tabPanes = document.querySelectorAll(".tab-pane");
+        this.tabButtons = document.querySelectorAll("[data-tab-button]");
+        this.tabPanes = document.querySelectorAll("[data-tab-pane]");
 
         if (!this.tabButtons || !this.tabPanes) return;
 

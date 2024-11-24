@@ -8,6 +8,7 @@
         "php": "^8.2",
         "blade-ui-kit/blade-icons": "^1.7",
         "laravel/framework": "^11.9",
+        "laravel/telescope": "^5.2",
         "laravel/tinker": "^2.9",
         "statamic/cms": "^5.37",
         "statamic/eloquent-driver": "^4.16"
